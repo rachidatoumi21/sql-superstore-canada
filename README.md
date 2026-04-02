@@ -65,23 +65,32 @@ Objectif : démontrer un workflow complet *données → modèle → analyse → 
 
 ## 📊 Visualisations (exemples)
 
+## 📊 Visualisations (exemples)
+
 Les graphiques sont générés depuis `data/exports/` et sauvegardés dans `reports/figures/`.
 
 - Dashboard KPI (tuiles “PowerBI style”)  
-  `reports/figures/01_kpi_global_tiles.png`
-- Tendance mensuelle : ventes & profit  
-  `reports/figures/02_monthly_sales_profit.png`
-- Tendance mensuelle : marge (%)  
-  `reports/figures/03_monthly_margin_pct.png`
-- Profit par catégorie / région / mode de livraison  
-  `reports/figures/05_profit_by_category.png`  
-  `reports/figures/09_profit_by_region.png`  
-  `reports/figures/07_sales_profit_by_ship_mode.png`
+  `reports/figures/01_kpi_global_tiles.png`  
+  ![Dashboard KPI](reports/figures/01_kpi_global_tiles.png)
 
-> Option : afficher les images directement dans le README :
-> - `![Dashboard KPI](reports/figures/01_kpi_global_tiles.png)`
-> - `![Monthly Sales vs Profit](reports/figures/02_monthly_sales_profit.png)`
-> - `![Monthly Margin](reports/figures/03_monthly_margin_pct.png)`
+- Tendance mensuelle : ventes & profit  
+  `reports/figures/02_monthly_sales_profit.png`  
+  ![Monthly Sales vs Profit](reports/figures/02_monthly_sales_profit.png)
+
+- Tendance mensuelle : marge (%)  
+  `reports/figures/03_monthly_margin_pct.png`  
+  ![Monthly Margin](reports/figures/03_monthly_margin_pct.png)
+
+- Profit par catégorie / région / mode de livraison  
+
+  `reports/figures/05_profit_by_category.png`  
+  ![Profit par catégorie](reports/figures/05_profit_by_category.png)
+
+  `reports/figures/09_profit_by_region.png`  
+  ![Profit par région](reports/figures/09_profit_by_region.png)
+
+  `reports/figures/07_sales_profit_by_ship_mode.png`  
+  ![Sales & Profit par livraison](reports/figures/07_sales_profit_by_ship_mode.png)
 
 ---
 
