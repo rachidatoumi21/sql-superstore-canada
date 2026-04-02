@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.log
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Power BI
+*.pbix.tmp
+
+# OS
+Thumbs.db
+.DS_Store
