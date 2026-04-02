@@ -1,4 +1,4 @@
--- Nettoyage (si tu relances)
+-- Nettoyage (si on relance)
 DROP VIEW IF EXISTS v_kpi_global;
 DROP VIEW IF EXISTS v_sales_profit_by_category;
 DROP VIEW IF EXISTS v_customer_profit;
@@ -42,7 +42,7 @@ SELECT
 
 FROM order_items oi;
 
--- 2) Ventes & profit par catégorie
+-- 2) Ventes et profit par catégorie
 CREATE VIEW v_sales_profit_by_category AS
 SELECT
   dc.Category,
@@ -122,7 +122,7 @@ FROM order_items oi
 JOIN orders o ON o.Order_ID = oi.Order_ID
 WHERE o.Number_of_days IS NOT NULL;
 
--- 7) Ship Mode: ventes & profit
+-- 7) Ship Mode: ventes et profit
 CREATE VIEW v_sales_profit_by_ship_mode AS
 SELECT
   sm.Ship_Mode,
