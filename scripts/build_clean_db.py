@@ -21,7 +21,7 @@ def main():
     con = sqlite3.connect(CLEAN_DB)
     con.execute("PRAGMA foreign_keys = ON;")
 
-    print("✅ Copie faite ->", CLEAN_DB)
+    print(" Copie faite ->", CLEAN_DB)
 
     # 2) Rapport AVANT (audit)
     before = qdf(con, """
@@ -81,7 +81,7 @@ def main():
     print(after.to_string(index=False))
 
     con.close()
-    print("\n🎉 DB clean prête :", CLEAN_DB)
+    print("\n DB clean prête :", CLEAN_DB)
 
 if __name__ == "__main__":
     main()

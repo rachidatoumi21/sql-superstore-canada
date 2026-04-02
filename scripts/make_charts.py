@@ -22,7 +22,7 @@ def save_fig(name: str):
     plt.tight_layout()
     plt.savefig(out, dpi=220, bbox_inches="tight")
     plt.close()
-    print(f"✅ {out}")
+    print(f" {out}")
 
 
 # -------------------------

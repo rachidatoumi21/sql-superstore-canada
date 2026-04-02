@@ -7,7 +7,7 @@ Objectif : démontrer un workflow complet *données → modèle → analyse → 
 
 ##  Objectifs du projet
 - Importer un dataset de ventes dans **SQLite** (`sales_raw`)
-- Construire un modèle relationnel “portfolio++” (dimensions + faits)
+- Construire un modèle relationnel (dimensions + faits)
 - Créer des **vues KPI** réutilisables pour l’analyse
 - Exporter les vues en CSV et produire des graphiques en Python
 - Mettre en évidence des **insights business** (marge, promos, rentabilité)
@@ -33,7 +33,7 @@ Objectif : démontrer un workflow complet *données → modèle → analyse → 
 - `order_items` : lignes d’items par commande (produits)
 - `customers`, `products` : dimensions principales
 
-### Dimensions (portfolio++)
+### Dimensions 
 - `dim_geo`, `dim_segment`, `dim_category`, `dim_ship_mode`, `dim_order_priority`, `dim_date`
 
 ### Vues SQL (KPI)
@@ -105,7 +105,7 @@ Les graphiques sont générés depuis `data/exports/` et sauvegardés dans `repo
 
 ---
 
-## ▶️ Reproduire le projet (pipeline)
+##  Reproduire le projet (pipeline)
 
 ### 1) Import CSV → DB brute
 
