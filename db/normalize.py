@@ -74,6 +74,6 @@ con.commit()
 # Vérifier tailles
 for t in ["customers", "products", "orders", "order_items"]:
     n = cur.execute(f"SELECT COUNT(*) FROM {t};").fetchone()[0]
-    print(f"✅ {t}: {n} lignes")
+    print(f" {t}: {n} lignes")
 
 con.close()
