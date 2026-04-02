@@ -170,7 +170,7 @@ CREATE TABLE products (
 );
 """)
 
-# ✅ CORRECTION: 1 ligne par Product_ID (évite UNIQUE failed)
+#  CORRECTION: 1 ligne par Product_ID (évite UNIQUE failed)
 cur.execute("""
 INSERT INTO products (Product_ID, Product_Name, category_id, unit_cost)
 SELECT
@@ -240,7 +240,7 @@ CREATE TABLE order_items (
 );
 """)
 
-# ✅ sécuriser Row_ID: DISTINCT pour éviter collision si jamais
+#  sécuriser Row_ID: DISTINCT pour éviter collision si jamais
 cur.execute("""
 INSERT INTO order_items (
     Row_ID, Order_ID, Product_ID, Sales, Quantity, Unit_Sales, Discount, Profit, Profit_per_unit, Unit_shipping_cost
@@ -283,7 +283,7 @@ to_check = [
 ]
 for t in to_check:
     n = cur.execute(f"SELECT COUNT(*) FROM {t};").fetchone()[0]
-    print(f"✅ {t}: {n} lignes")
+    print(f" {t}: {n} lignes")
 
 con.close()
-print("✅ Normalisation portfolio++ terminée.")
+print(" Normalisation portfolio++ terminée.")
