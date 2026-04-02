@@ -137,6 +137,12 @@ Exporter vers data/exports/ (ex : kpi_global.csv, kpi_monthly.csv, etc.)
 ### 7) Générer les graphiques
 python scripts/make_charts.py
 
+## 📊 Dashboard Power BI
+
+Le dashboard interactif est disponible ici :
+
+powerbi/superstore_dashboard.pbix
+
 
 # Outils utilisés
 
