@@ -65,8 +65,6 @@ Objectif : démontrer un workflow complet *données → modèle → analyse → 
 
 ## 📊 Visualisations (exemples)
 
-## 📊 Visualisations (exemples)
-
 Les graphiques sont générés depuis `data/exports/` et sauvegardés dans `reports/figures/`.
 
 - Dashboard KPI (tuiles “PowerBI style”)  
